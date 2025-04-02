@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaGoogle } from 'react-icons/fa'
 
 
-export default function SignIn() {
+export default function SignUp() {
   return (
     <div className='h-screen'>
       <div className='md:justify-start w-full md:p-0 grid md:grid-cols-[1fr_2fr] grid-cols-1'>
@@ -38,9 +38,10 @@ export default function SignIn() {
             <FaGithub className='text-xl' /> Continue with GitHub
           </button>
           
-          <button className='w-full bg-neutral-800 border border-neutral-700 text-white py-3 rounded-lg flex items-center justify-center gap-3 mb-4 text-sm font-semibold hover:border-neutral-500 transition-all duration-200'>
+          <button className='w-full bg-neutral-800 border border-neutral-600 text-white py-3 rounded-lg flex items-center justify-center gap-3 mb-4 text-sm font-semibold'>
             <FaGoogle className='text-xl' /> Continue with Google
           </button>
+
 
           <div className='w-full flex items-center my-6'>
             <div className='flex-grow border-t border-gray-700'></div>
