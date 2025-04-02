@@ -5,14 +5,20 @@ import { FaGithub, FaGoogle } from 'react-icons/fa'
 export default function SignUp() {
   return (
     <div className='h-screen'>
-      {/* Navigation Bar */}
-      <nav className='bg-neutral-900 p-4 flex items-center justify-start pl-6 w-[545px] border-r border-neutral-700'>
-        <img src='/assets/images/logo.jpg' alt='Logo' className='w-13 h-13 rounded-full object-cover p-1 m-1' />
-      </nav>
-      
-      <div className='grid grid-cols-[545.5px_854.5px] h-full'>
+      <div className=' md:justify-start w-full md: p-0 grid md:grid-cols-[1fr_2fr] grid-cols-1'>
+        <div className='bg-neutral-900 p-4 border-r border-neutral-600'>
+          <nav className=''>
+            <img src='/assets/images/logo.jpg' alt='Logo' className='w-13 h-13 rounded-full object-cover p-1 m-1' />
+          </nav>
+        </div>
+       <div className=''> 
+       </div>
+      </div>
+     
+
+      <div className='grid md:grid-cols-[1fr_2fr] grid-cols-1 h-full'>
         {/* Left: Sign-in Form */}
-        <div className='bg-neutral-900 flex flex-col px-23 py-3 border-r border-neutral-700 '>
+        <div className='bg-neutral-900 flex flex-col px-6 py-6 md:px-23 md:py-3 border-b md:border-r border-neutral-700 '>
           <p className='text-3xl font-light text-white mb-3'>Get started</p>
           <p className='text-gray-400 mb-8 text-[12px] font-semibold'>Create a new account</p>
           
@@ -49,8 +55,8 @@ export default function SignUp() {
         </div>
 
         {/* Right: Quote Section */}
-        <div className='flex flex-col justify-center items-center text-white w-full h-full'>
-          <p className='text-4xl italic text-gray-300 pb-6 p-10 leading-relaxed text-justify'>
+        <div className='flex flex-col justify-center items-center text-white w-full h-full md:h-screen  md: px-6'>
+          <p className='text-2xl md:text-4xl italic text-gray-300 pb-6 p-6 md:p-30 leading-relaxed text-justify'>
             “Social media isn’t just about posts—it’s about real connections, creativity, and community. Share, inspire, and grow together!”
           </p>
           <div className='flex items-center gap-4 pb-50'>
