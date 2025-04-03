@@ -16,7 +16,7 @@ export default function SignUp() {
       </div>
      
 
-      <div className='grid md:grid-cols-[1fr_2fr] grid-cols-1 h-full'>
+      <div className='grid md:grid-cols-[1fr_2fr] grid-cols-1 h-full' >
         {/* Left: Sign-in Form */}
         <div className='bg-neutral-900 flex flex-col px-6 py-6 md:px-23 md:py-3 border-b md:border-r border-neutral-700 '>
           <p className='text-3xl font-light text-white mb-3'>Welcome back</p>
