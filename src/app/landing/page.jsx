@@ -14,29 +14,29 @@ function page() {
                     <p className='text-md font-semibold text-white mb-3'>Product</p>
                 </li>
                 <li className='pl-2'>
-                    <p className='text-md font-light text-white mb-3'>Developers</p>
+                    <p className='text-3xl font-light text-white mb-3'>Developers</p>
                 </li>
                 <li className='pl-2'>
-                    <p className='text-md font-light text-white mb-3'>Enterprise</p>
+                    <p className='text-3xl font-light text-white mb-3'>Enterprise</p>
                 </li>
                 <li className='pl-2'>
-                    <p className='text-md font-light text-white mb-3'>Pricing</p>
+                    <p className='text-3xl font-light text-white mb-3'>Pricing</p>
                 </li>
                 <li className='pl-2'>
-                    <p className='text-md font-light text-white mb-3'>Docs</p>
+                    <p className='text-3xl font-light text-white mb-3'>Docs</p>
                 </li>
                 <li className='pl-2'>
-                    <p className='text-md font-light text-white mb-3'>Blog</p>
+                    <p className='text-3xl font-light text-white mb-3'>Blog</p>
                 </li>
             </ul>
         </div>
         <div className='border border-y-teal-500 p-4 m-4'> {/* right nav*/}
             <ul className='flex'>
                 <li>
-                    <p className='text-md font-light text-white mb-3'>Sign In</p>
+                    <p className='text-3xl font-light text-white mb-3'>Sign In</p>
                 </li>
                 <li>
-                    <p className='text-md font-light text-white mb-3'>Sign Up</p>
+                    <p className='text-3xl font-light text-white mb-3'>Sign Up</p>
                 </li>
             </ul>
         </div>
