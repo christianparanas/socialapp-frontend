@@ -22,7 +22,7 @@ export default function SignUp() {
           <p className='text-3xl font-light text-white mb-3'>Get started</p>
           <p className='text-gray-400 mb-8 text-[12px] font-semibold'>Create a new account</p>
           
-          <button className='w-full bg-neutral-800 border border-neutral-600 text-white py-3 rounded-lg flex items-center justify-center gap-3 mb-4 text-sm font-semibold'>
+          <button className='w-full bg-neutral-800 border border-neutral-600 text-white py-3 rounded-lg flex items-center justify-center gap-3 mb-4 text-sm font-semibold hover:border-neutral-500 transition-all duration-200'>
             <FaGithub className='text-xl' /> Continue with GitHub
           </button>
 
@@ -46,10 +46,10 @@ export default function SignUp() {
             className='w-full p-[10px] bg-neutral-800 rounded-lg bg-gray-850 text-white border border-gray-700 mb-2 text-xs' 
           />
 
-          <button className='w-full bg-green-800 text-white py-2 rounded-lg text-lg mb-6 mt-7 border border-green-600 text-[15px] font-extralight'>Sign Up</button>
+          <button className='w-full bg-green-800 text-white py-2 rounded-lg text-lg mb-6 mt-7 border border-green-600 text-[15px] font-extralight hover:border-green-500 transition-all duration-200'>Sign Up</button>
           <div className='flex flex-col-2 justify-center'>
             <p className='text-gray-400 text-xs text-center pr-1 '>Have an account? </p>
-            <span className='text-white cursor-pointert text-center underline text-sm'>Sign In Now </span>
+            <span className='text-white cursor-pointert text-center underline text-sm hover:text-neutral-400 transition-all duration-200'>Sign In Now </span>
              
           </div>
         </div>
