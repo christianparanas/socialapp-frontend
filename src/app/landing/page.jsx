@@ -30,18 +30,13 @@ function page() {
                 </li>
             </ul>
         </div>
-        <div className=''> {/* right nav*/}
-            <ul className='flex flex-wrap'>
-                <li className='pl-4  pt-4'>
-                    <button className='bg-neutral-800 border border-neutral-600 text-white py-1 px-2 rounded-lg flex items-center justify-center gap-3 mb-4 text-sm font-semibold hover:bg-neutral-700 hover:border-neutral-500 transition-all duration-200'>
-                        <p className='text-xs font-extralight text-white '>Sign Up</p>
-                    </button>
-
+        <div className='border border-y-teal-500 p-4 m-4'> {/* right nav*/}
+            <ul className='flex'>
+                <li>
+                    <p className='text-3xl font-light text-white mb-3'>Sign In</p>
                 </li>
-                <li className='pl-2 p-4'>
-                    <button className='bg-green-800 border border-green-600 text-white py-1 px-2 rounded-lg flex items-center justify-center gap-3 mb-4 text-sm font-semibold hover:border-green-500 hover:bg-green-700 ease-in-out transition-all duration-200' >
-                        <p className='text-xs font-extralight text-white '>Sign In</p>
-                    </button>
+                <li>
+                    <p className='text-3xl font-light text-white mb-3'>Sign Up</p>
                 </li>
             </ul>
         </div>
