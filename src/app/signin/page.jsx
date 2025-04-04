@@ -67,8 +67,9 @@ export default function SignIn() {
 
           <button className='w-full bg-green-800 text-white py-2 rounded-lg text-lg mb-6 mt-7 border border-green-600 text-[15px] font-extralight hover:bg-green-700 transition-all duration-200'>Sign In</button>
           <div className='flex flex-col-2 justify-center'>
-            <p className='text-gray-400 text-xs text-center pr-1 '>Don't have an account? </p>
-            <span className='text-white cursor-pointer text-center underline text-sm hover:text-neutral-400'>Sign Up Now </span>
+            <p className='text-gray-400 text-xs text-center pr-1 '>Have an account? </p>
+            <span className='text-white cursor-pointert text-center underline text-sm'>Sign In Now </span>
+             
           </div>
         </div>
 
