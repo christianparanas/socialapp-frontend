@@ -33,10 +33,10 @@ function page() {
         <div className='border border-y-teal-500 p-4 m-4'> {/* right nav*/}
             <ul className='flex'>
                 <li>
-                    <p className='text-3xl font-light text-white mb-3'>Sign In</p>
+                    <p className='text-md font-light text-white mb-3'>Sign In</p>
                 </li>
                 <li>
-                    <p className='text-3xl font-light text-white mb-3'>Sign Up</p>
+                    <p className='text-md font-light text-white mb-3'>Sign Up</p>
                 </li>
             </ul>
         </div>
