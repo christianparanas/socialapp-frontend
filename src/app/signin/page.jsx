@@ -38,7 +38,7 @@ export default function SignUp() {
             <FaGithub className='text-xl' /> Continue with GitHub
           </button>
           
-          <button className='w-full bg-neutral-800 border border-neutral-600 text-white py-3 rounded-lg flex items-center justify-center gap-3 mb-4 text-sm font-semibold'>
+          <button className='w-full bg-neutral-800 border border-neutral-700 text-white py-3 rounded-lg flex items-center justify-center gap-3 mb-4 text-sm font-semibold hover:border-neutral-500 transition-all duration-200'>
             <FaGoogle className='text-xl' /> Continue with Google
           </button>
 
@@ -68,8 +68,8 @@ export default function SignUp() {
 
           <button className='w-full bg-green-800 text-white py-2 rounded-lg text-lg mb-6 mt-7 border border-green-600 text-[15px] font-extralight hover:bg-green-700 transition-all duration-200'>Sign In</button>
           <div className='flex flex-col-2 justify-center'>
-            <p className='text-gray-400 text-xs text-center pr-1 '>Have an account? </p>
-            <span className='text-white cursor-pointert text-center underline text-sm'>Sign In Now </span>
+            <p className='text-gray-400 text-xs text-center pr-1 '>Don't have an account? </p>
+            <span className='text-white cursor-pointert text-center underline text-sm hover:text-neutral-400'>Sign Up Now </span>
              
           </div>
         </div>
