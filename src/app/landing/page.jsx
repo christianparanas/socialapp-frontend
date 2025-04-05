@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { AcademicCapIcon, ChatBubbleBottomCenterIcon, ChartBarIcon, GlobeAltIcon, CodeBracketIcon } from '@heroicons/react/24/outline'
 function page() {
   return (
     <div> {/* Global*/}
@@ -63,9 +63,35 @@ function page() {
             <button className='bg-green-900  px-2 py-1 rounded-md font-sans font-medium text-sm border border-green-700'>Start your project</button>
             <button className='bg-neutral-700 px-2 py-1 rounded-md font-sans font-medium text-sm border border-neutral-500'>Request a demo</button>
         </div>
+        
+            <div className="relative overflow-hidden bg-black py-10">
+                <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black z-10 pointer-events-none" />
+
+                <div className="whitespace-nowrap flex animate-marquee gap-20 px-4">
+                    <IconItem Icon={AcademicCapIcon} />
+                    <IconItem Icon={ChatBubbleBottomCenterIcon} />
+                    <IconItem Icon={ChartBarIcon} />
+                    <IconItem Icon={GlobeAltIcon} />
+                    <IconItem Icon={CodeBracketIcon} />
+                    {/* Repeat for seamless scroll */}
+                    <IconItem Icon={AcademicCapIcon} />
+                    <IconItem Icon={ChatBubbleBottomCenterIcon} />
+                    <IconItem Icon={ChartBarIcon} />
+                    <IconItem Icon={GlobeAltIcon} />
+                    <IconItem Icon={CodeBracketIcon} />
+                </div>
+
+                <p className="text-gray-400 text-sm mt-10 text-center">
+                    Trusted by fast-growing companies worldwide
+                </p>
+            </div>
       </div>
     </div>
   )
 }
+
+function IconItem({ Icon }) {
+    return <Icon className="h-10 w-10 text-gray-400 hover:text-white transition duration-300" />
+  }
 
 export default page
