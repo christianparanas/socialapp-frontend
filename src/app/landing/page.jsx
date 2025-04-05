@@ -3,7 +3,7 @@ import React from 'react'
 function page() {
   return (
     <div> {/* Global*/}
-      <div className='flex justify-between border-b border-neutral-800 pl-40 pr-40 h-16'>  {/* nav*/}
+      <div className='flex justify-between border-b border-neutral-600 pl-40 pr-40 h-16 bg-neutral-800'>  {/* nav*/}
         <div className=''> {/* left nav*/}
             <ul className='flex flex-wrap'>
                 <li className='flex h-16'>
@@ -47,8 +47,22 @@ function page() {
         </div>
       </div>
 
-      <div>
-
+      <div className='flex flex-col py-40 items-center bg-neutral-800 h-dvh'>
+        <div className='flex flex-col justify-center items-center'>
+            <p className='font-extrabold text-7xl'>Build in a weekend</p>
+            <p className='font-extrabold text-7xl text-green-400'>Scale to millions</p>  
+        </div>
+        <div className='w-lg h-20 mt-10 '>
+            <p className='text-center font-sans font-semibold'>
+            Supabase is an open source Firebase alternative.
+            Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, 
+            Realtime subscriptions, Storage, and Vector embeddings.
+            </p>
+        </div>
+        <div className='w-4xl h-20 mt-10 flex justify-center gap-6 py-6'>
+            <button className='bg-green-900  px-2 py-1 rounded-md font-sans font-medium text-sm border border-green-700'>Start your project</button>
+            <button className='bg-neutral-700 px-2 py-1 rounded-md font-sans font-medium text-sm border border-neutral-500'>Request a demo</button>
+        </div>
       </div>
     </div>
   )
